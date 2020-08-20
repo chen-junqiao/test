@@ -7,5 +7,8 @@ window.onload = function () {
     git: function () {
       console.log("这是master的方法");
     },
+    set: function () {
+      console.log("这是login分支的方法");
+    },
   };
 };
