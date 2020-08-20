@@ -3,4 +3,9 @@ window.onload = function () {
   h1.onclick = function () {
     alert(11);
   };
+  const $ = {
+    set: function () {
+      console.log("这是login分支的方法");
+    },
+  };
 };
